@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-=======
 /**NAVBAR STYLES*/
 .navbar{
     border: 1px solid rgba(255, 255, 255, 0.607);
@@ -25,14 +23,12 @@
     justify-content: space-between;
     align-items: center;
 }
->>>>>>> 7edb20df6f51522a19589ac141f87bc715abb575
 .links >*{ 
     text-decoration: none;
     color: black;
     padding: 3px;
     height: auto;
     
-<<<<<<< HEAD
 }
 .productCard{
     font-family: 'Abel';
@@ -44,9 +40,8 @@
 img {
     border-radius: 5%;
 }
-=======
     
-}
+
 
 .links >*:hover {
     color: grey;
@@ -88,4 +83,3 @@ img {
 .contacts{
     height: 100vh;
 }
->>>>>>> 7edb20df6f51522a19589ac141f87bc715abb575
