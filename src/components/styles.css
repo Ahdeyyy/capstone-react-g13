@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 .links >*{ 
     margin: 0 5px;
     text-decoration: none;
     color: black;
     height: auto;
     
+}
+.productCard{
+    font-family: 'Abel';
+}
+.productCard :hover{
+    background-color: aquamarine;
+    border-radius: 5%;
+}
+img {
+    border-radius: 5%;
 }
