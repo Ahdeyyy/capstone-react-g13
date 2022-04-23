@@ -28,6 +28,7 @@ class Card extends React.Component {
 
 const Products = () => {
     return ( 
+<<<<<<< HEAD
         <div style={{display : 'flex' , flexWrap: 'wrap'}}>
        <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
        <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
@@ -38,6 +39,11 @@ const Products = () => {
        <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
        <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
        </div>
+=======
+        <div className="products">
+            This is the product page
+        </div>
+>>>>>>> 7edb20df6f51522a19589ac141f87bc715abb575
      );
 }
  

@@ -5,13 +5,14 @@ import './styles.css'
 
 const Navbar = () => {
     return (
-        <nav style={{ display: 'flex', margin: '5px', justifyContent:'space-between', }}>
-            <span style={{}}>LOGO</span>
-            <div className="links" style={{ width: '50%', display: 'flex',justifyContent:'space-between'}}>
-                <Link to='/'><p>Home</p></Link>
-                <Link to='/contact'><p>Contact</p></Link>
-                <Link to='/about'><p>About</p></Link>
-                <Link to='/products'><p>Products</p></Link>
+        <nav className='navbar'>
+            <span>iZakaya</span>
+            <div className="links" >
+                <Link to='/'>Home</Link>
+                <Link to='/products'>Products</Link>
+                <Link to='/about'>About</Link>
+                <Link to='/contact'>Contact</Link>
+                
             </div>
             
             
