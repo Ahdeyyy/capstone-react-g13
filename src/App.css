@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&display=swap');
+
 *{
   box-sizing: border-box;
 }
 body{
-  margin: 2% 10%
+  font-family: 'Montserrat', sans-serif;
+  margin: 2% 5%;
+  background-position: no-repeat;
+  background: linear-gradient(rgb(221, 184, 133), rgb(45, 45, 224))
 }

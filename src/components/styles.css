@@ -1,7 +1,73 @@
+/**NAVBAR STYLES*/
+.navbar{
+    border: 1px solid rgba(255, 255, 255, 0.607);
+    border-bottom: none;
+    background-color: rgba(255, 255, 255, 0.333);
+    border-radius: 4px;
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+}
+.navbar> span{
+    color: rgb(113, 28, 217);
+    font: bold;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+.links{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .links >*{ 
-    margin: 0 5px;
     text-decoration: none;
     color: black;
+    padding: 3px;
     height: auto;
     
+    
+}
+
+.links >*:hover {
+    color: grey;
+
+
+}
+
+
+/*FOOTER STYLES*/
+.footer{
+    background-color: white;
+    margin-top: 1vh;
+    
+}
+/*HOME PAGE STYLES*/
+.home{
+    height: 100vh;
+}
+
+/*PRODUCTS PAGE STYLES*/
+.products{
+    height: 100vh;
+}
+
+/*ABOUT PAGE STYLES*/
+.about{
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 3px;
+    padding: 15px;
+    height: 100vh;
+    margin-top: 5%;
+    font-size: 18px;
+    color: rgb(235, 235, 235);
+}
+.about>span{
+    font-weight: bold;
+}
+/*CONTACT PAGE STYLES*/
+.contacts{
+    height: 100vh;
 }
