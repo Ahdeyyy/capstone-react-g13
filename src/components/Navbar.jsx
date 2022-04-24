@@ -5,8 +5,11 @@ import './styles.css'
 
 const Navbar = () => {
     return (
+    
         <nav className='navbar'>
             <span>iZakaya</span>
+            
+            
             <div className="links" >
                 <Link to='/'>Home</Link>
                 <Link to='/products'>Products</Link>
@@ -16,7 +19,10 @@ const Navbar = () => {
             </div>
             
             
+            
         </nav>
+        
+        
       );
 }
  
