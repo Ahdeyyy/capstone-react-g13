@@ -3,9 +3,13 @@
 *{
   box-sizing: border-box;
 }
+html {
+  min-height: 100%;
+}
 body{
   font-family: 'Montserrat', sans-serif;
   margin: 2% 5%;
-  background-position: no-repeat;
-  background: linear-gradient(rgb(221, 184, 133), rgb(45, 45, 224))
+  
+  background-image: linear-gradient(rgb(221, 184, 133), rgb(45, 45, 224));
+  background-repeat: no-repeat;
 }
