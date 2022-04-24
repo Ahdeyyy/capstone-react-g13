@@ -30,15 +30,7 @@
     height: auto;
     
 }
-.productCard{
-    font-family: 'Abel';
-    color: antiquewhite;
-    font-size: 20px;
-}
-.productCard :hover{
-    background-color: rgba(100, 95, 97,0.4);
-    border-radius: 5%;
-}
+
 
 img {
     border-radius: 5%;
@@ -66,9 +58,15 @@ img {
 }
 
 /*PRODUCTS PAGE STYLES*/
-.products{
-    height: 100vh;
-}
+
+    .productCard{
+        color: antiquewhite;
+        font-size: 20px;
+    }
+    .productCard :hover{
+        background-color: rgba(100, 95, 97,0.4);
+        border-radius: 5%;
+    }
 
 /*ABOUT PAGE STYLES*/
 .about{
@@ -84,7 +82,7 @@ img {
 }
 /*CONTACT PAGE STYLES*/
 .contacts{
-<<<<<<< HEAD
+
 
     margin-top: 5%;
     display: flex;
@@ -118,7 +116,3 @@ img {
     box-shadow: none;
     outline: none;
 }
-=======
-    height: 100vh;
-}
->>>>>>> 1de419eda3450057e538cd9d7693f6f0674e06de

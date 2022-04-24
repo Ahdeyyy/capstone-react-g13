@@ -29,14 +29,14 @@ class Card extends React.Component {
 const Products = () => {
     return ( 
         <div style={{display : 'flex' , flexWrap: 'wrap' ,justifyContent: 'space-evenly'}}>
-       <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
-       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
-       <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
-       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
-       <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
-       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
-       <Card source = {dodo_image} image_desc = "dodo" description= "a lovely crisp friend plantain" price="$7000"/>
-       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "tasty" price ="$5.50"/>
+       <Card source = {dodo_image} image_desc = "dodo" description= "A lovely crisp friend plantain" price="$7000"/>
+       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "Tasty" price ="$5.50"/>
+       <Card source = {dodo_image} image_desc = "dodo" description= "A lovely crisp friend plantain" price="$7000"/>
+       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "Tasty" price ="$5.50"/>
+       <Card source = {dodo_image} image_desc = "dodo" description= "A lovely crisp friend plantain" price="$7000"/>
+       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "Tasty" price ="$5.50"/>
+       <Card source = {dodo_image} image_desc = "dodo" description= "A lovely crisp friend plantain" price="$7000"/>
+       <Card source = {jollof_rice_image} image_desc = "jollof rice" description = "Tasty" price ="$5.50"/>
        </div>
      );
 }
