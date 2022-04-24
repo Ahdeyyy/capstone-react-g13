@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 /**NAVBAR STYLES*/
 .navbar{
     border-bottom: none;
@@ -28,8 +29,22 @@
     padding: 3px;
     height: auto;
     
-    
 }
+.productCard{
+    font-family: 'Abel';
+    color: antiquewhite;
+    font-size: 20px;
+}
+.productCard :hover{
+    background-color: rgba(100, 95, 97,0.4);
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 5%;
+}
+    
+
 
 .links >*:hover {
     color: grey;
@@ -69,6 +84,8 @@
 }
 /*CONTACT PAGE STYLES*/
 .contacts{
+<<<<<<< HEAD
+
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -101,3 +118,7 @@
     box-shadow: none;
     outline: none;
 }
+=======
+    height: 100vh;
+}
+>>>>>>> 1de419eda3450057e538cd9d7693f6f0674e06de
