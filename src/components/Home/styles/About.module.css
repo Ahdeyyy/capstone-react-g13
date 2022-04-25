@@ -1,0 +1,42 @@
+.about {
+  background-color: rgb(214, 214, 245);
+  padding: 5rem 0;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about_left h2 {
+  font-size: calc(30px * var(--base-size));
+  line-height: 120%;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.about_left p {
+  font-size: calc(18px * var(--base-size));
+  line-height: 150%;
+}
+
+.about_left a {
+  background-color: rgb(113, 28, 217);
+  border: 1px solid rgb(113, 28, 217);
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.about_right img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .about_content {
+    grid-template-columns: 50% 30%;
+    justify-content: space-between;
+  }
+}

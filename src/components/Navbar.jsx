@@ -6,20 +6,22 @@ import './styles.css'
 const Navbar = () => {
     return (
     
-        <nav className='navbar'>
-            <span>iZakaya</span>
+        <nav className="navbar">
+            <div className="container">
+                <div className="nav-content">
+                    <span>iZakaya</span>
+                    
+                    
+                    <div className="links" >
+                        <Link to='/'>Home</Link>
+                        <Link to='/products'>Products</Link>
+                        <Link to='/about'>About</Link>
+                        <Link to='/contact'>Contact</Link>
+                        
+                    </div>
             
-            
-            <div className="links" >
-                <Link to='/'>Home</Link>
-                <Link to='/products'>Products</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/contact'>Contact</Link>
-                
+                </div>
             </div>
-            
-            
-            
         </nav>
         
         
