@@ -1,15 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.about,
+.contacts {
+    margin: 2% 5%;
+}
+
+
 /**NAVBAR STYLES*/
 .navbar{
     border-bottom: none;
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
+}
+
+.nav-content {
     display: flex;
     backdrop-filter: blur(2px);
-    padding: 5px 20px;
+    padding: 10px 20px;
     justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
 }
-.navbar> span{
+
+.nav-content > span {
     color: rgb(113, 28, 217);
     font: bold;
     cursor: pointer;
@@ -17,32 +29,53 @@
     font-size: 30px;
     font-family: 'Kaushan Script', cursive;
 }
-.links{
-    width: 45%;
+.links {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.links >*{ 
+.links > * { 
     text-decoration: none;
     color: black;
-    padding: 3px;
     height: auto;
-    
+    border: none;
+    box-shadow: none;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+}
+
+.links > a:last-child {
+    padding-bottom: 0;
+}
+
+.links > *:hover,
+.links > *:focus {
+    box-shadow: 0 2.5px 5px rgba(255, 255, 255, 0.15);
+    color: grey;
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-content {
+        flex-direction: row;
+    }
+
+    .links {
+        flex-direction: row;
+        flex-basis: 45%;
+        justify-content: space-between;
+    }
+
+    .links > * {
+        padding: 3px;
+    }
 }
 
 
 
 img {
     border-radius: 5%;
-}
-    
-
-
-.links >*:hover {
-    color: grey;
-
-
 }
 
 
