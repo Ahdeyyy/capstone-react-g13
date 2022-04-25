@@ -2,14 +2,88 @@
 
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+:root {
+  --base-size: 0.85;
+}
+
 html {
   min-height: 100%;
 }
 body{
   font-family: 'Montserrat', sans-serif;
-  margin: 2% 5%;
   
   background-image: linear-gradient(rgb(221, 184, 133), rgb(45, 45, 224));
   background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  font-size: calc(16px * var(--base-size));
+  line-height: 150%;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+a:hover,
+a:focus {
+  box-shadow: 0 2.5px 5px rgba(255, 255, 255, 0.15);
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --base-size: 0.9;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  :root {
+    --base-size: 1;
+  }
+
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .container {
+    max-width: 1400px;
+  }
 }
