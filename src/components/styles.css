@@ -21,6 +21,7 @@
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+
 .nav-content > span {
     color: rgb(113, 28, 217);
     font: bold;
@@ -53,7 +54,7 @@
 .links > *:hover,
 .links > *:focus {
     box-shadow: 0 2.5px 5px rgba(255, 255, 255, 0.15);
-    color: grey;
+    color: gray;
 }
 
 @media only screen and (min-width: 600px) {
@@ -88,9 +89,7 @@ img {
     
 }
 /*HOME PAGE STYLES*/
-.home{
-    height: 100vh;
-}
+
 
 /*PRODUCTS PAGE STYLES*/
  .productCard{
@@ -149,6 +148,10 @@ img {
     border-radius: 4px;
     box-shadow: none;
     outline: none;
+}
+.bottom2 > button {
+    width: 100px;
+    height: 40px;
 }
 /* MEDIA QUERIES FOR RESPONSIVENESS*/
 @media screen and (max-width: 510px) {
