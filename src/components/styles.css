@@ -178,3 +178,7 @@ img {
         width: 100%;
     }
 }
+@media screen and (max-width: 610px) {
+    .nav-content > span
+    { text-align: center;}
+}
