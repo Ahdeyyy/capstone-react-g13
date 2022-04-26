@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navbar from "../Navbar";
+//import Navbar from "../Navbar";
 import About from "./About";
 import Hero from "./Hero";
 import Products from "./Products";
